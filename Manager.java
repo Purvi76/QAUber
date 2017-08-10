@@ -8,7 +8,7 @@ public class Manager extends Employee{
 		 
 	 }
        public double getSalary(){
-    	   return getSalary() + bonus;
+    	   return super.getSalary() + bonus;
     	   
        }
 }
