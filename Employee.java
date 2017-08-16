@@ -2,7 +2,7 @@
 public class Employee {
 
 	private String name;
-	private double salary;
+	protected double salary;
 	private int employeeID;
 	 
 	 public Employee(String name,double salary,int employeeID){
